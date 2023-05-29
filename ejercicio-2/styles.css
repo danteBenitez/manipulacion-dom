@@ -1,0 +1,13 @@
+:root {
+    min-height: 100%;
+    font-size: 0.95rem;
+}
+
+.max-width {
+    width: 300px;
+    height: 495px;
+}
+
+.card-img {
+    object-fit: cover;
+}

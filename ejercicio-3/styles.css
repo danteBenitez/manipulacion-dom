@@ -1,0 +1,13 @@
+:root {
+    font-size: 1.3rem;
+}
+
+.min-width-25 {
+    min-width: 25%;
+}
+
+
+.btn-custom {
+    min-height: 2rem;
+    max-height: 2.5rem;
+}
