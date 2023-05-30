@@ -8,7 +8,7 @@ function renderizarTarjetas(arrayObjetos) {
         // Creamos un elemento article y le damos la clase de tarjeta
         const tarjeta = document.createElement('article');
 
-        tarjeta.classList.add('card', 'max-width');
+        tarjeta.classList.add('card', 'fixed-size');
 
         // Creamos un elemento h5 que contendrá el título de la tarjeta
         const titulo = document.createElement('h5');
@@ -28,7 +28,7 @@ function renderizarTarjetas(arrayObjetos) {
 
         const imagen = document.createElement('img');
 
-        imagen.classList.add('card-img');
+        imagen.classList.add('card-img', 'max-width');
 
         imagen.setAttribute('src', objeto.imagenSrc);
 
